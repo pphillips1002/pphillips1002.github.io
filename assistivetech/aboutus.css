@@ -124,3 +124,8 @@ body {
     line-height: px;
     padding-top: 25px;
 }
+
+#map {
+    height: 100%;
+  }
+  
