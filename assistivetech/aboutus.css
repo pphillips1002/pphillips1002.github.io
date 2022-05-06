@@ -109,3 +109,18 @@ body {
       display: block;
     }
   }
+
+  .footerCopyright {
+    color:  rgba(99.00000169873238, 99.00000169873238, 99.00000169873238, 1);
+    width: 597px;
+    height: 20px;
+    position: absolute;
+    left: 450px;
+    top: 1000px;
+    font-family: Bahnschrift, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: px;
+    padding-top: 25px;
+}

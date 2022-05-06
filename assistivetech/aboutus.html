@@ -21,7 +21,7 @@
   <div class="row">
     <div class="column">
       <div class="card">
-        <img src="/images/logo.png" alt="Jane" style="width:100%">
+        <img src="/images/acadlogo.jpg" alt="Jane" style="width:100%">
         <div class="container">
           <h2>Academics</h2>
           <p class="title">Our University</p>
@@ -33,13 +33,33 @@
   
     <div class="column">
       <div class="card">
-        <img src="/images/logo.png" alt="Mike" style="width:100%">
+        <img src="" alt="" style="width:100%">
         <div class="container">
           <h2>Contact Us</h2>
           <p class="title">Need to get in touch?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, natus.</p>
-          <p>contact us form</p>
-          <p><button class="button">Contact</button></p>
+          <p>Send us a message and we will get back to you promptly.</p>
+          <div id="frmContact">
+            <div id="mail-status"></div>
+            <div>
+                <label style="padding-top:20px;">Name</label><span id="userName-info" class="info"></span><br/>
+                <input type="text" name="userName" id="userName" class="demoInputBox">
+            </div>
+            <div>
+                <label>Email</label><span id="userEmail-info" class="info"></span><br/>
+                <input type="text" name="userEmail" id="userEmail" class="demoInputBox">
+            </div>
+            <div>
+                <label>Subject</label><span id="subject-info" class="info"></span><br/>
+                <input type="text" name="subject" id="subject" class="demoInputBox">
+            </div>
+            <div>
+                <label>Message</label><span id="content-info" class="info"></span><br/>
+                <textarea name="content" id="content" class="demoInputBox" cols="55" rows="6"></textarea>
+            </div>
+            <div>
+                           </div>
+        </div>
+          <p><button name='submit' class="button" onClick="sendContact();">Contact</button></p>
         </div>
       </div>
     </div>
@@ -56,4 +76,7 @@
         </div>
       </div>
     </div>
+</div>
+<span class="footerCopyright">&nbsp© 2022 Pierce Phillips</span>
+</div>
   </div>
