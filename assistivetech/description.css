@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+}
+
+
+.homepage {
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: 1220px;
+    position: absolute;
+}
+
+.pageHeader {
+    background-color: rgba(255, 255, 255, 1);
+    width: 1440px;
+    height: 516px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: 40px;
+    top: -6px;
+}
+
+.logoIcon {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 60.18811798095703px;
+    background-image: url(images/logo.png);
+}
+
+.checklist {
+    width: 1188px;
+    height: 881px;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    background-image: url(images/checklist.JPG);
+}
+
+.home {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(6.000000117346644, 114.0000008046627, 203.00000309944153, 1);
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 55px;
+    font-family: Bahnschrift, sans-serif;
+    font-size: 18px;
+    float: right;
+}
+
+.home:hover {
+    border-color: black;
+    border-width: 5px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.home:focus {
+    border-color: black;
+    border-width: 5px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footerCopyright {
+    color:  rgba(99.00000169873238, 99.00000169873238, 99.00000169873238, 1);
+    width: 597px;
+    height: 20px;
+    position: absolute;
+    left: 385px;
+    top: 1000px;
+    font-family: Bahnschrift, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: px;
+    padding-top: 25px;
+}

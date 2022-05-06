@@ -1,4 +1,5 @@
 // homepage button mappings to functions
+document.getElementById("home-id").addEventListener("click", login);
 document.getElementById("request-id").addEventListener("click", request);
 document.getElementById("hearing-id").addEventListener("click", requestHearing);
 document.getElementById("vision-id").addEventListener("click", requestVisual);
@@ -7,6 +8,11 @@ document.getElementById("cognitive-id").addEventListener("click", requestCogniti
 
 // homepage button functions
 // opens new window and redirects to assitive technology hub request form
+// sends user back to home screen 
+function login() {
+    window.location.href = "login.html";
+}
+
 function request() {
     window.open("https://georgiastateuniversity.force.com/support/s/");
 }

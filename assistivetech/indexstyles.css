@@ -38,6 +38,34 @@ html, body {
     background-image: url(images/logo.png);
 }
 
+.home {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(6.000000117346644, 114.0000008046627, 203.00000309944153, 1);
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 55px;
+    font-family: Bahnschrift, sans-serif;
+    font-size: 18px;
+    float: right;
+}
+
+.home:hover {
+    border-color: black;
+    border-width: 5px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.home:focus {
+    border-color: black;
+    border-width: 5px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .headerImage {
     width: 672px;
     height: 340px;
@@ -418,13 +446,55 @@ html, body {
     line-height: px;
 }
 
+.about {
+    color: rgba(99.00000169873238, 99.00000169873238, 99.00000169873238, 1);
+    width: 200px;
+    height: 51px;
+    position: absolute;
+    left: 505px;
+    top: 45px;
+    font-family: Bahnschrift, sans-serif;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: px;
+}
+
+.checklist {
+    color: rgba(99.00000169873238, 99.00000169873238, 99.00000169873238, 1);
+    width: 200px;
+    height: 51px;
+    position: absolute;
+    left: 265px;
+    top: 45px;
+    font-family: Bahnschrift, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: px;
+}
+
+.description {
+    color: rgba(99.00000169873238, 99.00000169873238, 99.00000169873238, 1);
+    width: 150px;
+    height: 51px;
+    position: absolute;
+    right: 310px;
+    top: 45px;
+    font-family: Bahnschrift, sans-serif;
+    text-align: right;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: px;
+}
+
 .footerButton {
     box-shadow: 1.1723335981369019px 1.1723335981369019px 1.1723335981369019px rgba(0, 43.00000123679638, 85.0000025331974, 0.07999999821186066);
     width: 122.75733947753906px;
     height: 38.37866973876953px;
     position: absolute;
     left: 468.621337890625px;
-    top: 63px;
+    top: 75px;
 }
 
 .requestButton {
