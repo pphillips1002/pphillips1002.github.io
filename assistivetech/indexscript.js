@@ -10,7 +10,7 @@ document.getElementById("cognitive-id").addEventListener("click", requestCogniti
 // opens new window and redirects to assitive technology hub request form
 // sends user back to home screen 
 function login() {
-    window.location.href = "login.html";
+    window.location.href = "login.php";
 }
 
 function request() {

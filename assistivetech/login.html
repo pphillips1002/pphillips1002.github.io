@@ -10,6 +10,8 @@
     <link rel="icon" href=images/icon.png>
 </head>
 
+
+
 <!-- https://www.w3schools.com/howto/howto_css_login_form.asp -->
 <form action="action_page.php" method="post">
     <div><button id="home-id" class="home"><i class="fa fa-home fa-lg"></i> Home</button></div>
@@ -26,6 +28,9 @@
       <input type="password" placeholder="Enter Password" name="psw" required>
   
       <button type="submit">Login</button>
+      <?php
+      validate($_POST['username'], $_POST['password'])
+      ?>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>

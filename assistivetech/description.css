@@ -38,12 +38,12 @@ html, body {
 }
 
 .checklist {
-    width: 1188px;
+    width: 1450px;
     height: 881px;
     position: absolute;
-    left: 100px;
+    left: 10px;
     top: 150px;
-    background-image: url(images/logo.png);
+    background-image: url(images/description.JPG);
 }
 
 .home {
